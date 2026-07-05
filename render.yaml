@@ -1,0 +1,12 @@
+# Exported from Render on 2026-07-05T14:43:15Z
+version: "1"
+databases:
+- name: my-database
+  databaseName: myapp_db_ntmo
+  user: myapp_user
+  plan: free
+  region: oregon
+  ipAllowList:
+  - source: 0.0.0.0/0
+    description: Allow all connections
+  postgresMajorVersion: "16"
